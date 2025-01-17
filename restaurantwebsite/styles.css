@@ -277,7 +277,10 @@ body {
   color: white;
   padding: 5px;
 }
-
+.snacks-items-price {
+  font-weight: bold;
+  color: #ff5722; 
+}
 /*  Weekly Specials Section */
 
 .specials-container {
