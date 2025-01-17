@@ -103,7 +103,11 @@ body {
   background: cover;
   text-align: center;
 }
-
+.menu-link {
+  text-decoration: none; 
+  color: inherit; 
+  display: block; 
+}
 #menu h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -132,7 +136,7 @@ body {
 }
 
 .menu-card:hover {
-  transform: translateY(-10px);
+  transform: scale(1.05);
 }
 
 .menu-image {
@@ -160,6 +164,26 @@ body {
   font-weight: bold;
   color: white;
   margin: 0;
+}
+/* Back Section */
+.back-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Catering Menu*/
