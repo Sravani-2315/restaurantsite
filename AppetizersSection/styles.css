@@ -67,20 +67,23 @@ body, h1, ul, li, a {
     }
 
 
-/* Snacks/Entrees Detailed Section */
-#snacks-items {
+/* appetizers Detailed Section */
+#appetizers-items {
   padding: 50px 20px;
   background: radial-gradient(#3C3F3F, #070808);
   text-align: center;
 }
 
-#snacks-items h2{
+#appetizers-items h2{
   font-size: 2.5rem;
   margin-bottom: 10px;
   color: white;
 }
-
-.snacks-items-container {
+.appetizers-side-name{
+  font-size: 1.8rem; 
+  color: white;
+}
+.appetizers-items-container {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center; 
@@ -88,7 +91,7 @@ body, h1, ul, li, a {
   padding: 20px;
 }
 
-.snacks-items-card {
+.appetizers-items-card {
   background: radial-gradient(#7E8787, #070808);
   display: flex; 
   align-items: center;
@@ -102,20 +105,20 @@ body, h1, ul, li, a {
   margin: 13px;
   flex: 1 1 calc(30% - 20px);
 }
-.snacks-items-description p{
+.appetizers-items-description p{
   color: white;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-top: 0px;
 }
 
-.snacks-items-image {
+.appetizers-items-image {
   width: 50%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
 }
 
-.snacks-items-description {
+.appetizers-items-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,14 +127,14 @@ body, h1, ul, li, a {
   text-align: left;
 }
 
-.snacks-items-name {
-  font-size: 1.8rem;
+.appetizers-items-name {
+  font-size: 1.4rem;
   font-weight: bold;
   color: white;
   padding: 5px;
   margin-bottom: 5px;
 }
-.snacks-items-price {
+.appetizers-items-price {
   font-weight: bold;
   color: #ff5722; 
 }
@@ -183,12 +186,12 @@ body, h1, ul, li, a {
     .navbar ul.show {
         display: flex; 
     }
-    .snacks-items-card {
+    .appetizers-items-card {
     flex: 1 1 100%; 
     max-width: 100%;
   }
 
-  .snacks-items-image {
+  .appetizers-items-image {
     height: 150px; 
   }
   /* For Medium and Large Devices */
@@ -203,44 +206,44 @@ body, h1, ul, li, a {
     .navbar ul li:last-child a {
         margin-right: 20px; 
     }
-    /* Snacks/Entrees Detailed Section */
-  #snacks-items h2 {
+    /* appetizers/Entrees Detailed Section */
+  #appetizers-items h2 {
     font-size: 2.2rem; 
   }
 
-  .snacks-items-card {
+  .appetizers-items-card {
     width: 45%; 
     padding: 18px;
     flex: 1 1 calc(45% - 20px); 
   }
 
-  .snacks-items-image {
+  .appetizers-items-image {
     width: 50%; 
     height: 180px; 
   }
 
-  .snacks-items-name {
+  .appetizers-items-name {
     font-size: 1.7rem; 
   }
   @media (min-width: 1025px) {
 
-    /* Snacks/Entrees Detailed Section */
-    #snacks-items h2 {
+    /* appetizers/Entrees Detailed Section */
+    #appetizers-items h2 {
     font-size: 2.5rem; 
   }
 
-  .snacks-items-card {
+  .appetizers-items-card {
     width: 30%; 
     padding: 20px;
     flex: 1 1 calc(30% - 20px); 
   }
 
-  .snacks-items-image {
+  .appetizers-items-image {
     width: 50%; 
     height: 200px; 
   }
 
-  .snacks-items-name {
+  .appetizers-items-name {
     font-size: 1.8rem; 
   }
 }
