@@ -135,6 +135,26 @@ body, h1, ul, li, a {
   font-weight: bold;
   color: #ff5722; 
 }
+/* Back Section */
+.back-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
 
 /*  Responsive Styles */
 @media (max-width: 767px) {
