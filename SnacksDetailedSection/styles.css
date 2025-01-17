@@ -65,3 +65,162 @@ body, h1, ul, li, a {
       border: 2px solid white; 
       border-radius: 10px;
     }
+
+
+/* Snacks/Entrees Detailed Section */
+#snacks-items {
+  padding: 50px 20px;
+  background: radial-gradient(#3C3F3F, #070808);
+  text-align: center;
+}
+
+#snacks-items h2{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.snacks-items-container {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.snacks-items-card {
+  background: radial-gradient(#7E8787, #070808);
+  display: flex; 
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 30%;
+  margin: 13px;
+  flex: 1 1 calc(30% - 20px);
+}
+.snacks-items-description p{
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.snacks-items-image {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.snacks-items-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  text-align: left;
+}
+
+.snacks-items-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.snacks-items-price {
+  font-weight: bold;
+  color: #ff5722; 
+}
+
+/*  Responsive Styles */
+@media (max-width: 767px) {
+  /*  Navbar Section */
+    .navbar ul {
+        display: none; 
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 10px;
+        z-index: 999;
+        text-align: center;
+        background: radial-gradient(#7E8787, #070808);
+        font-weight: bold;
+        font-size: 1.1rem;
+
+    }
+
+    .mobile-menu-icon {
+        display: block; 
+    }
+
+    .navbar ul.show {
+        display: flex; 
+    }
+    .snacks-items-card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+
+  .snacks-items-image {
+    height: 150px; 
+  }
+  /* For Medium and Large Devices */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar ul {
+        display: flex; 
+    }
+
+    .mobile-menu-icon {
+          display: none; 
+    }
+    .navbar ul li:last-child a {
+        margin-right: 20px; 
+    }
+    /* Snacks/Entrees Detailed Section */
+  #snacks-items h2 {
+    font-size: 2.2rem; 
+  }
+
+  .snacks-items-card {
+    width: 45%; 
+    padding: 18px;
+    flex: 1 1 calc(45% - 20px); 
+  }
+
+  .snacks-items-image {
+    width: 50%; 
+    height: 180px; 
+  }
+
+  .snacks-items-name {
+    font-size: 1.7rem; 
+  }
+  @media (min-width: 1025px) {
+
+    /* Snacks/Entrees Detailed Section */
+    #snacks-items h2 {
+    font-size: 2.5rem; 
+  }
+
+  .snacks-items-card {
+    width: 30%; 
+    padding: 20px;
+    flex: 1 1 calc(30% - 20px); 
+  }
+
+  .snacks-items-image {
+    width: 50%; 
+    height: 200px; 
+  }
+
+  .snacks-items-name {
+    font-size: 1.8rem; 
+  }
+}
