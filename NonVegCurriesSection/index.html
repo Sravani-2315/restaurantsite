@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <title>Restaurant Site</title>
+  <style>
+  </style>
+  </head>
+<body>
+
+<!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>SB</h1>
+    </div>
+    <div class="mobile-menu-icon" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false">☰</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#popular-items">Popular Items</a></li>
+      <li><a href="#weekly-special">Weekly Special</a></li>
+      <li><a href="#map-section">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Snacks/Entrees Detailed Section -->
+
+<section id="vegcurries-items">
+  <h2>Veg Curries</h2>
+  <div class="vegcurries-items-container">
+    <!-- Dish Card 1 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.jpg?t=st=1737058243~exp=1737061843~hmac=b3b22a61ef0e554daab046604d6bf3c2b1ecaa941a288c7338273f2cf7b14faa&w=1380" alt="Dal Fry/Dal Tadka" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Dal Fry/Dal Tadka <span class="vegcurries-items-price">($11.99)</span></h3>
+        <p>Slow-cooked lentils tempered with spices.</p>
+      </div>
+    </div>
+    <!-- Dish Card 2 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/top-view-delicious-eggplants-dish-still-life_23-2150561784.jpg?t=st=1737058303~exp=1737061903~hmac=bb1b952904adc269bde45890e0aa53fdfb18d1b579fb69ead367f2cf69f836c9&w=1380" alt="Gutti Vankaya Curry" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Gutti Vankaya Curry <span class="vegcurries-items-price">($12.99)</span></h3>
+        <p>Stuffed eggplant in a rich, spiced gravy.</p>
+      </div>
+    </div>
+  
+    <!-- Dish Card 3 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/premium-photo/mix-vegetable-curry-indian-main-course-recipe-contains-carrots-cauliflower-green-peas-beans-baby-corn-capsicum-paneer-cottage-cheese-with-traditional-masala-curry_466689-36323.jpg?w=740" alt="Mixed Vegetable Korma" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Mixed Vegetable Korma <span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Creamy curry with mixed vegetables.</p>
+      </div>
+    </div>
+    <!-- Dish Card 4 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/flat-lay-pakistani-food-arrangement_23-2148825110.jpg?t=st=1737058455~exp=1737062055~hmac=757922aa3d067bbecec2734d6d75c149b7e110ed177e52b59da22abf0ca727c3&w=1380" alt="PALAK Paneer" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">PALAK Paneer<span class="vegcurries-items-price">($14.99)</span></h3>
+        <p>Spinach curry with soft paneer cubes.</p>
+      </div>
+    </div>
+    <!-- Dish Card 5 -->
+    <div class="vegcurries-items-card">
+      <img src="https://images.pexels.com/photos/13220364/pexels-photo-13220364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Paneer Kurma Vindaloo " class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Paneer Kurma Vindaloo  <span class="vegcurries-items-price">($14.99)</span></h3>
+        <p>Paneer cooked in spicy Vindaloo gravy. </p>
+      </div>
+    </div>
+    <!-- Dish Card 6 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/premium-photo/paneer-khus-khus-curry-cottage-cheese-posto-masala-made-using-poppy-seeds-indian-recipe_1184104-726.jpg?w=740" alt="Paneer Butter Masala" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Paneer Butter Masala<span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Creamy tomato gravy with butter and soft paneer.</p>
+      </div>
+    </div>
+    <!-- Dish Card 7 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/premium-photo/malai-achari-paneer-gravy-made-using-whipping-cream-served-serving-pan-selective-focus_466689-30435.jpg?w=1380" alt="Kadai Paneer" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Kadai Paneer <span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Paneer cooked in a tangy tomato and bell pepper curry.
+</p>
+      </div>
+    </div>
+    <!-- Dish Card 8 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/premium-photo/matar-paneer-curry-recipe-made-using-cottage-cheese-with-green-peas-served-bowl-selective-focus_466689-33014.jpg?w=1380" alt="Mutter Paneer Masala" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Mutter Paneer Masala <span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Paneer and peas in a spiced tomato-based curry.
+</p>
+      </div>
+    </div>
+    <!-- Dish Card 9 -->
+    <div class="vegcurries-items-card">
+      <img src=" https://img.freepik.com/free-photo/pre-prepared-food-showcasing-ready-eat-delicious-meals-go_23-2151246080.jpg?t=st=1737058760~exp=1737062360~hmac=7024c35f6083a648a8d4e5b3684522405988b204cba3179f2787d8b7117cbe53&w=740" alt="Paneer Tikka Masala " class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Paneer Tikka Masala <span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Grilled paneer in a creamy tomato curry.</p>
+      </div>
+    </div>
+<!-- Dish Card 10 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/premium-photo/veg-makhani-indian-food-garlic-naan-bowls-plates-with-indian-food-top-view_713766-19.jpg?w=740" alt="Rogan Josh Curry " class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Rogan Josh Curry  <span class="vegcurries-items-price">($13.99)</span></h3>
+        <p>Flavorful curry with aromatic spices.</p>
+      </div>
+    </div>
+    <!-- Dish Card 11 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/fresh-soup-with-spices_144627-34281.jpg?t=st=1737058918~exp=1737062518~hmac=8b3febb5c9fd7c7187e22609218496972e52cd9b54f01daf410e86af3305eec7&w=740
+" alt="Rajma Curry" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Rajma Curry  <span class="vegcurries-items-price">($12.99)</span></h3>
+        <p>Red kidney beans in a rich tomato gravy. 
+</p>
+      </div>
+    </div>
+    <!-- Dish Card 12 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/top-view-roasted-aubergine-salad-bowl-wooden-spoon-dark-surface_140725-88447.jpg?t=st=1737058963~exp=1737062563~hmac=c695fa1a95ed4653ab1fb8bd0dd1d94f1cd5d3ca92a13625caccf832bd7e1d9d&w=740" alt="Goan Vindaloo" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Goan Vindaloo <span class="vegcurries-items-price">($12.99)</span></h3>
+        <p>Spicy and tangy curry with Goan flavors. 
+</p>
+      </div>
+    </div>
+<!-- Dish Card 13 -->
+    <div class="vegcurries-items-card">
+      <img src="https://img.freepik.com/free-photo/woman-holding-bowl-soup-food-photography-recipe-idea_53876-41053.jpg?t=st=1737059013~exp=1737062613~hmac=7fd1fa9706228295ab9691f647098473f5af928218af70f680e569cc82b4018c&w=1380" alt="Dal Makhani" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Dal Makhani  <span class="vegcurries-items-price">($11.99)</span></h3>
+        <p>Creamy black lentils slow-cooked with butter.
+</p>
+      </div>
+    </div>
+    <!-- Dish Card 14 -->
+    <div class="vegcurries-items-card">
+      <img src=" https://img.freepik.com/free-photo/side-view-vegetable-ragout-with-potato-carrot-cauliflower-basil_141793-5151.jpg?t=st=1737058522~exp=1737062122~hmac=2ffd42cc4864c9d9b775379e1fa53f54902f56885908cc076a6c3f2bf2163a0c&w=1380" alt="Aloo Gobi" class="vegcurries-items-image" loading="lazy">
+      <div class="vegcurries-items-description">
+        <h3 class="vegcurries-items-name">Aloo Gobi <span class="vegcurries-items-price">($11.99)</span></h3>
+        <p>A delightful blend of tender potatoes and cauliflower slow-cooked in aromatic Indian spices.
+</p>
+      </div>
+    </div>
+  </div>
+  <!-- Back Section -->
+<div class="back-section">
+  <a href="javascript:history.back()" class="back-button">← Back to Previous Page</a>
+</div>
+</section>
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector('.navbar ul');
+  menu.classList.toggle('show');
+}
+  </script>
+</body>
+</html>
