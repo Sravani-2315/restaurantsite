@@ -67,20 +67,20 @@ body, h1, ul, li, a {
     }
 
 
-/* vegcurries Detailed Section */
-#vegcurries-items {
+/* nonvegcurries Detailed Section */
+#nonvegcurries-items {
   padding: 50px 20px;
   background: radial-gradient(#3C3F3F, #070808);
   text-align: center;
 }
 
-#vegcurries-items h2{
+#nonvegcurries-items h2{
   font-size: 2.5rem;
   margin-bottom: 10px;
   color: white;
 }
 
-.vegcurries-items-container {
+.nonvegcurries-items-container {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center; 
@@ -88,7 +88,7 @@ body, h1, ul, li, a {
   padding: 20px;
 }
 
-.vegcurries-items-card {
+.nonvegcurries-items-card {
   background: radial-gradient(#7E8787, #070808);
   display: flex; 
   align-items: center;
@@ -102,20 +102,20 @@ body, h1, ul, li, a {
   margin: 13px;
   flex: 1 1 calc(30% - 20px);
 }
-.vegcurries-items-description p{
+.nonvegcurries-items-description p{
   color: white;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-top: 0px;
 }
 
-.vegcurries-items-image {
+.nonvegcurries-items-image {
   width: 50%;
   height: 200px;
   object-fit: cover;
 }
 
-.vegcurries-items-description {
+.nonvegcurries-items-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,14 +124,14 @@ body, h1, ul, li, a {
   text-align: left;
 }
 
-.vegcurries-items-name {
+.nonvegcurries-items-name {
   font-size: 1.8rem;
   font-weight: bold;
   color: white;
   padding: 5px;
   margin-bottom: 5px;
 }
-.vegcurries-items-price {
+.nonvegcurries-items-price {
   font-weight: bold;
   color: #ff5722; 
 }
@@ -183,12 +183,12 @@ body, h1, ul, li, a {
     .navbar ul.show {
         display: flex; 
     }
-    .vegcurries-items-card {
+    .nonvegcurries-items-card {
     flex: 1 1 100%; 
     max-width: 100%;
   }
 
-  .vegcurries-items-image {
+  .nonvegcurries-items-image {
     height: 150px; 
   }
   /* For Medium and Large Devices */
@@ -203,44 +203,44 @@ body, h1, ul, li, a {
     .navbar ul li:last-child a {
         margin-right: 20px; 
     }
-    /* vegcurries Detailed Section */
-  #vegcurries-items h2 {
+    /* nonvegcurries Detailed Section */
+  #nonvegcurries-items h2 {
     font-size: 2.2rem; 
   }
 
-  .vegcurries-items-card {
+  .nonvegcurries-items-card {
     width: 45%; 
     padding: 18px;
     flex: 1 1 calc(45% - 20px); 
   }
 
-  .vegcurries-items-image {
+  .nonvegcurries-items-image {
     width: 50%; 
     height: 180px; 
   }
 
-  .vegcurries-items-name {
+  .nonvegcurries-items-name {
     font-size: 1.7rem; 
   }
   @media (min-width: 1025px) {
 
-    /* vegcurries Detailed Section */
-    #vegcurries-items h2 {
+    /* nonvegcurries Detailed Section */
+    #nonvegcurries-items h2 {
     font-size: 2.5rem; 
   }
 
-  .vegcurries-items-card {
+  .nonvegcurries-items-card {
     width: 30%; 
     padding: 20px;
     flex: 1 1 calc(30% - 20px); 
   }
 
-  .vegcurries-items-image {
+  .nonvegcurries-items-image {
     width: 50%; 
     height: 200px; 
   }
 
-  .vegcurries-items-name {
+  .nonnonvegcurries-items-name {
     font-size: 1.8rem; 
   }
 }
