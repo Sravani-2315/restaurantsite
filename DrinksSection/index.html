@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <title>Restaurant Site</title>
+  <style>
+  </style>
+  </head>
+<body>
+
+<!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>SB</h1>
+    </div>
+    <div class="mobile-menu-icon" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false">☰</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#popular-items">Popular Items</a></li>
+      <li><a href="#weekly-special">Weekly Special</a></li>
+      <li><a href="#map-section">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Snacks/Entrees Detailed Section -->
+
+<section id="desserts-items">
+  <h2>Drinks</h2>
+  <div class="desserts-items-container">
+    <!-- Dish Card 1 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/free-photo/close-up-volunteer-oganizing-stuff-donation_23-2149134487.jpg?t=st=1737061778~exp=1737065378~hmac=51c872b32d3d42a60c45c070b4af31cd1a18b9198bfffbac91ca6b1ba145899c&w=1380" alt="Water Bottle" class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Water Bottle <span class="desserts-items-price">($0.99)</span></h3>
+        <p>Refreshing bottled water.</p>
+      </div>
+    </div>
+    <!-- Dish Card 2 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/premium-photo/gajar-ka-halwa-is-carrotbased-sweet-dessert-pudding-from-india_466689-21697.jpg?w=1380" alt="Soft Drinks (Coke/Sprite/Diet Coke)" class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Soft Drinks (Coke/Sprite/Diet Coke)<span class="desserts-items-price">($1.75)</span></h3>
+        <p>Classic carbonated beverages.</p>
+      </div>
+    </div>
+  
+    <!-- Dish Card 3 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/premium-photo/glasses-cuba-libre-wooden-table-against-dark-surface_185193-31802.jpg?w=1380" alt="Indian Drinks (Thumbs Up/Limca)" class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Indian Drinks (Thumbs Up/Limca)<span class="desserts-items-price">($2.75)</span></h3>
+        <p> Iconic Indian soft drinks.</p>
+      </div>
+    </div>
+    <!-- Dish Card 4 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/free-photo/delicious-indian-drinks-arrangement_23-2149312382.jpg?t=st=1737062101~exp=1737065701~hmac=9105d2dd3de94cb5026aee88e0dac1e36bf61d4e8f120b0506d83e70f73b5815&w=826" alt="Sweet Lassi " class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Sweet Lassi <span class="desserts-items-price">($3.99)</span></h3>
+        <p>Creamy and sweet yogurt drink.</p>
+      </div>
+    </div>
+    <!-- Dish Card 5 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/premium-photo/indian-mango-turmeric-lassi-black-background_91908-5084.jpg?w=1380
+" alt="Mango Lassi" class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Mango Lassi<span class="desserts-items-price">($4.99)</span></h3>
+        <p>Sweet and tangy mango-flavored yogurt drink.</p>
+      </div>
+    </div>
+    <!-- Dish Card 6 -->
+    <div class="desserts-items-card">
+      <img src="https://img.freepik.com/premium-photo/delicious-fruity-daiquiri-cocktail-with-strawberry_23-2149418290.jpg?w=740
+" alt="Strawberry Lassi" class="desserts-items-image" loading="lazy">
+      <div class="desserts-items-description">
+        <h3 class="desserts-items-name">Strawberry Lassi <span class="desserts-items-price">($4.99)</span></h3>
+        <p>Sweet yogurt drink with fresh strawberry flavor. </p>
+      </div>
+    </div>
+
+    </div>
+    
+  <!-- Back Section -->
+<div class="back-section">
+  <a href="javascript:history.back()" class="back-button">← Back to Previous Page</a>
+</div>
+</section>
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector('.navbar ul');
+  menu.classList.toggle('show');
+}
+  </script>
+</body>
+</html>
