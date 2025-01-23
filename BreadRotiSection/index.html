@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <title>Restaurant Site</title>
+  <style>
+  </style>
+  </head>
+<body>
+
+<!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>SB</h1>
+    </div>
+    <div class="mobile-menu-icon" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false">☰</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#popular-items">Popular Items</a></li>
+      <li><a href="#weekly-special">Weekly Special</a></li>
+      <li><a href="#map-section">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Snacks/Entrees Detailed Section -->
+
+<section id="biryani-items">
+  <h2>Bread & Roti</h2>
+  <div class="biryani-items-container">
+    <!-- Dish Card 1 -->
+    <div class="biryani-items-card">
+      <img src="https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073357.jpg?t=st=1737061051~exp=1737064651~hmac=21a59f8e76f14f44292489c4eb78f2937bbd8f081a7eb753b015f7e743d1ecc1&w=1380" alt="Chapati" class="biryani-items-image" loading="lazy">
+      <div class="biryani-items-description">
+        <h3 class="biryani-items-name">Chapati <span class="biryani-items-price">($1.25)</span></h3>
+        <p>Soft, flat, and round whole wheat bread.</p>
+      </div>
+    </div>
+    <!-- Dish Card 2 -->
+    <div class="biryani-items-card">
+      <img src="https://img.freepik.com/premium-photo/puran-poli-puran-roti-holige-obbattu-bobbattlu-is-indian-sweet-flatbread-from-maharashtra_466689-88942.jpg?w=740" alt="Malabar Paratha" class="biryani-items-image" loading="lazy">
+      <div class="biryani-items-description">
+        <h3 class="biryani-items-name">Malabar Paratha <span class="biryani-items-price">($1.99)</span></h3>
+        <p>Flaky and layered South Indian flatbread.</p>
+      </div>
+    </div>
+  
+    <!-- Dish Card 3 -->
+    <div class="biryani-items-card">
+      <img src="https://img.freepik.com/free-photo/freshly-baked-homemade-bread-wooden-table-ready-eat-healthy-generated-by-artificial-intelligence_188544-124560.jpg?t=st=1737061144~exp=1737064744~hmac=b3c6625cedd197eb82df2e4ca2b7e0cba7f7db1fccc5364b5ff728762a3099f8&w=1380" alt="Plain Naan" class="biryani-items-image" loading="lazy">
+      <div class="biryani-items-description">
+        <h3 class="biryani-items-name">Plain Naan <span class="biryani-items-price">($3.49)</span></h3>
+        <p>Classic soft and fluffy Indian bread.</p>
+      </div>
+    </div>
+    <!-- Dish Card 4 -->
+    <div class="biryani-items-card">
+      <img src="https://img.freepik.com/free-photo/pakistani-food-wooden-board-top-view_23-2148825093.jpg?t=st=1737061183~exp=1737064783~hmac=0e5e100c0a056c50625c85cb699f83fb07e51fce806c13e509e95089dc67ad5d&w=1380" alt="Butter Naan" class="biryani-items-image" loading="lazy">
+      <div class="biryani-items-description">
+        <h3 class="biryani-items-name">Butter Naan<span class="biryani-items-price">($3.99)</span></h3>
+        <p>Naan brushed with melted butter.</p>
+      </div>
+    </div>
+    <!-- Dish Card 5 -->
+    <div class="biryani-items-card">
+      <img src="https://img.freepik.com/premium-photo/buttery-garlic-naan-background_1279578-12880.jpg?w=740
+" alt="Egg Dum Biryani" class="biryani-items-image" loading="lazy">
+      <div class="biryani-items-description">
+        <h3 class="biryani-items-name">Garlic Naan <span class="biryani-items-price">($4.99)</span></h3>
+        <p>Naan topped with minced garlic and herbs.</p>
+      </div>
+    </div>
+    
+    
+  <!-- Back Section -->
+<div class="back-section">
+  <a href="javascript:history.back()" class="back-button">← Back to Previous Page</a>
+</div>
+</section>
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector('.navbar ul');
+  menu.classList.toggle('show');
+}
+  </script>
+</body>
+</html>
