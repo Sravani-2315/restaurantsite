@@ -67,20 +67,20 @@ body, h1, ul, li, a {
     }
 
 
-/* nonvegcurries Detailed Section */
-#nonvegcurries-items {
+/* biryani Detailed Section */
+#biryani-items {
   padding: 50px 20px;
   background: radial-gradient(#3C3F3F, #070808);
   text-align: center;
 }
 
-#nonvegcurries-items h2{
+#biryani-items h2{
   font-size: 2.5rem;
   margin-bottom: 10px;
   color: white;
 }
 
-.nonvegcurries-items-container {
+.biryani-items-container {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center; 
@@ -88,7 +88,7 @@ body, h1, ul, li, a {
   padding: 20px;
 }
 
-.nonvegcurries-items-card {
+.biryani-items-card {
   background: radial-gradient(#7E8787, #070808);
   display: flex; 
   align-items: center;
@@ -102,20 +102,20 @@ body, h1, ul, li, a {
   margin: 13px;
   flex: 1 1 calc(30% - 20px);
 }
-.nonvegcurries-items-description p{
+.biryani-items-description p{
   color: white;
   margin-bottom: 15px;
   margin-left: 5px;
   margin-top: 0px;
 }
 
-.nonvegcurries-items-image {
+.biryani-items-image {
   width: 50%;
   height: 200px;
   object-fit: cover;
 }
 
-.nonvegcurries-items-description {
+.biryani-items-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,14 +124,14 @@ body, h1, ul, li, a {
   text-align: left;
 }
 
-.nonvegcurries-items-name {
+.biryani-items-name {
   font-size: 1.8rem;
   font-weight: bold;
   color: white;
   padding: 5px;
   margin-bottom: 5px;
 }
-.nonvegcurries-items-price {
+.biryani-items-price {
   font-weight: bold;
   color: #ff5722; 
 }
@@ -183,12 +183,12 @@ body, h1, ul, li, a {
     .navbar ul.show {
         display: flex; 
     }
-    .nonvegcurries-items-card {
+    .biryani-items-card {
     flex: 1 1 100%; 
     max-width: 100%;
   }
 
-  .nonvegcurries-items-image {
+  .biryani-items-image {
     height: 150px; 
   }
   /* For Medium and Large Devices */
@@ -203,44 +203,44 @@ body, h1, ul, li, a {
     .navbar ul li:last-child a {
         margin-right: 20px; 
     }
-    /* nonvegcurries Detailed Section */
-  #nonvegcurries-items h2 {
+    /* biryani Detailed Section */
+  #biryani-items h2 {
     font-size: 2.2rem; 
   }
 
-  .nonvegcurries-items-card {
+  .biryani-items-card {
     width: 45%; 
     padding: 18px;
     flex: 1 1 calc(45% - 20px); 
   }
 
-  .nonvegcurries-items-image {
+  .biryani-items-image {
     width: 50%; 
     height: 180px; 
   }
 
-  .nonvegcurries-items-name {
+  .biryani-items-name {
     font-size: 1.7rem; 
   }
   @media (min-width: 1025px) {
 
-    /* nonvegcurries Detailed Section */
-    #nonvegcurries-items h2 {
+    /* biryani Detailed Section */
+    #biryani-items h2 {
     font-size: 2.5rem; 
   }
 
-  .nonvegcurries-items-card {
+  .biryani-items-card {
     width: 30%; 
     padding: 20px;
     flex: 1 1 calc(30% - 20px); 
   }
 
-  .nonvegcurries-items-image {
+  .biryani-items-image {
     width: 50%; 
     height: 200px; 
   }
 
-  .nonnonvegcurries-items-name {
+  .nonbiryani-items-name {
     font-size: 1.8rem; 
   }
 }
