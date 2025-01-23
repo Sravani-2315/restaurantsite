@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <title>Restaurant Site</title>
+  <style>
+  </style>
+  </head>
+<body>
+
+<!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>SB</h1>
+    </div>
+    <div class="mobile-menu-icon" onclick="toggleMenu()" aria-label="Toggle navigation menu" aria-expanded="false">☰</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#popular-items">Popular Items</a></li>
+      <li><a href="#weekly-special">Weekly Special</a></li>
+      <li><a href="#map-section">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Snacks/Entrees Detailed Section -->
+
+<section id="desserts">
+  <h2>Desserts</h2>
+  <div class="desserts-container">
+    <!-- Dish Card 1 -->
+    <div class="desserts-card">
+      <img src="https://media.istockphoto.com/id/502619160/photo/indian-food-bread-halwa.jpg?s=1024x1024&w=is&k=20&c=_afV2YQYGjEcTp8ZY3yD2V0TO3X6r05t_PAftJ8SRh8=" alt="Double Ka Meetha" class="desserts-image" loading="lazy">
+      <div class="desserts-description">
+        <h3 class="desserts-name">Double Ka Meetha <span class="desserts-price">($6.49)</span></h3>
+        <p>Bread pudding with milk, nuts, and saffron.</p>
+      </div>
+    </div>
+    <!-- Dish Card 2 -->
+    <div class="desserts-card">
+      <img src="https://img.freepik.com/premium-photo/gajar-ka-halwa-is-carrotbased-sweet-dessert-pudding-from-india_466689-21697.jpg?w=1380" alt="Carrot Halwa" class="desserts-image" loading="lazy">
+      <div class="desserts-description">
+        <h3 class="desserts-name">Carrot Halwa <span class="desserts-price">($5.99)</span></h3>
+        <p>Sweet dessert made with grated carrots and milk.</p>
+      </div>
+    </div>
+  
+    <!-- Dish Card 3 -->
+    <div class="desserts-card">
+      <img src="https://img.freepik.com/free-photo/delicious-indian-dessert-view_23-2149312365.jpg?t=st=1737061574~exp=1737065174~hmac=0d5bfa8c97913083ce129868e9bbd4ce0a8d26a0a81c9ccffb827fa22354c2fb&w=1380" alt="Gulab Jamun " class="desserts-image" loading="lazy">
+      <div class="desserts-description">
+        <h3 class="desserts-name">Gulab Jamun <span class="desserts-price">($5.99)</span></h3>
+        <p>Deep-fried dough balls soaked in sugar syrup. </p>
+      </div>
+    </div>
+    <!-- Dish Card 4 -->
+    <div class="desserts-card">
+      <img src="https://img.freepik.com/premium-photo/angoori-rasmalai-is-indian-dessert-sweet-with-dry-fruits-saffron-toppings-served-bowl-moody-background-selective-focus_466689-58772.jpg?w=740" alt="Rasmalai" class="desserts-image" loading="lazy">
+      <div class="desserts-description">
+        <h3 class="desserts-name">Rasmalai<span class="desserts-price">($5.99)</span></h3>
+        <p>Soft paneer balls in sweetened milk. </p>
+      </div>
+    </div>
+    <!-- Dish Card 5 -->
+    <div class="desserts-card">
+      <img src="https://img.freepik.com/premium-photo/homemade-apricot-clafoutis-traditional-summer-french-sweet-fruit-pie_331309-1659.jpg?w=826
+" alt="Apricot Custard Delight" class="desserts-image" loading="lazy">
+      <div class="desserts-description">
+        <h3 class="desserts-name">Apricot Custard Delight <span class="desserts-price">($8.99)</span></h3>
+        <p>Rich apricot dessert with creamy custard.</p>
+      </div>
+    </div>
+    
+    </div>
+    
+  <!-- Back Section -->
+<div class="back-section">
+  <a href="javascript:history.back()" class="back-button">← Back to Previous Page</a>
+</div>
+</section>
+<script>
+    function toggleMenu() {
+  const menu = document.querySelector('.navbar ul');
+  menu.classList.toggle('show');
+}
+  </script>
+</body>
+</html>
