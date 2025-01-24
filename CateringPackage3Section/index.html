@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <title>Restaurant Site</title>
+  <style>
+  </style>
+  </head>
+<body>
+
+<!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>SB</h1>
+    </div>
+    <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#catering">Catering</a></li>
+      <li><a href="#popular-items">Popular Items</a></li>
+      <li><a href="#weekly-special">Weekly Special</a></li>
+      <li><a href="#map-section">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+<!--- Catering Package Section --->
+<section id="catering-items">
+  <h2>Catering Package 3</h2>
+  <h3>Minimum Package for 15 People</h3>
+  <div>
+<p class="catering-items-para">1. (Vegetarian) Choice of three appetizers, three main courses, rice/Biryani, side dish, bread & dessert.
+<span class="catering-items-price">$21.00 Per Person</span></p>
+<p class="catering-items-para">2. (Non-Vegetarian) Choice of three appetizers, three main courses, rice/Biryani, side dish, bread & dessert.(Costs extra for Meat(Mutton/Fish/Prawns))
+<span class="catering-items-price">$25.00 Per Person</span></p>
+</div>
+<div class="catering-items-choice">
+<h3>Choice Of Appetizers</h3>
+<ul class="catering-items-list">
+  <li>Gobi Manchurian</li>
+  <li>Gobi 65</li>
+  <li>Chilli Gobi</li>
+  <li>Veg Manchurian</li>
+  <li>Paneer 65</li>
+  <li>Tandoori Mushrooms</li>
+  <li>Vegetable Spring Rolls </li>
+  <li>Chilli Paneer</li>
+  <li>Aloo 65</li>
+  <li>Egg Spring Rolls</li>
+  <li>Chicken 65</li>
+  <li>Andhra Chicken Pakoda</li>
+  <li>Chicken Manchurian</li>
+  <li>Andhra Chicken Fry (Kodi Vepudu)</li>
+  <li>Chicken Majestic</li>
+  <li>Black Pepper Chicken</li>
+  <li>Apollo Fish </li>
+  <li>Mutton Sukka </li>
+  <li>Fish Pakoda</li>
+  <li>Chilli Prawns</li>
+  <li>Prawns Fry  </li>
+</ul>
+</div>
+
+<div class="catering-items-choice">
+<h3>Choice Of Main Courses</h3>
+<ul class="catering-items-list">
+  <li>Gutti Vankaya Curry</li>
+  <li>Mixed Vegetable Korma </li>
+  <li>Malai Kofta Curry </li>
+  <li>Palak Paneer </li>
+  <li>Aloo Gobi</li>
+  <li>Paneer Tikka Masala</li>
+  <li>Rajma Curry</li>
+  <li>Goan Vindaloo</li>
+  <li>Rogan Josh Curry</li>
+  <li>Mutter Paneer Masala</li>
+  <li>Butter Chicken Masala</li>
+  <li>Chicken Chettinad </li>
+  <li>Chicken Palak Saag</li>
+  <li>Mughlai Chicken</li>
+  <li>Chicken Rogan Josh </li>
+  <li>Andhra Goat Curry </li>
+  <li>Goat Palak Saag  </li>
+  <li>Mutton Rogan Josh </li>
+</ul>
+</div>
+
+<div class="catering-items-choice">
+<h3>Choice Of Biryani's</h3>
+<ul class="catering-items-list">
+  <li>Veg Dum Biryani</li>
+  <li>SPL Paneer Kheema/Bhurji Biryani </li>
+  <li>Paneer Tikka Biryani </li>
+  <li>Egg Dum Biryani </li>
+  <li>HYD Chicken Dum Biryani</li>
+  <li>SPL Boneless Chicken Biryani</li>
+  <li>Fish Pan Fry Biryani</li>
+  <li>Shrimp Pan Fry Biryani</li>
+  <li>Mutton Dum/Fry Biryani </li>
+</ul>
+</div>
+
+<div class="catering-items-choice">
+<h3>Choice Of Breads</h3>
+<ul class="catering-items-list">
+  <li>Chapati</li>
+  <li>Malabar Paratha</li>
+  <li>Plain Naan</li>
+  <li>Butter Naan</li>
+  <li>Garlic Naan</li>
+</ul>
+</div>
+
+<div class="catering-items-choice">
+<h3>Choice Of Side Dish</h3>
+<ul class="catering-items-list">
+  <li>Raita</li>
+  <li>Cucumber Raita</li>
+  <li>Salad</li>
+</ul>
+</div>
+
+<div class="catering-items-choice">
+<h3>Choice Of Side Dish</h3>
+<ul class="catering-items-list">
+  <li>Carrot Halwa</li>
+  <li>Gulab Jamun</li>
+  <li>Apricot Delight</li>
+</ul>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    function toggleMenu() {
+    const navbarMenu = document.querySelector('.navbar ul');
+    console.log('Hamburger icon clicked');  
+    navbarMenu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
