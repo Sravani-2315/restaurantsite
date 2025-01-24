@@ -142,7 +142,26 @@ ul.catering-items-list {
   color: white;
 }
 
+/* Back Section */
+.back-section {
+  margin-top: 20px;
+  text-align: center;
+}
 
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: radial-gradient(#7E8787, #070808);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background: black;
+}
 
     @media (max-width: 767px) {
   /*  Navbar Section */
